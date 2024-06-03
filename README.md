@@ -15,7 +15,7 @@ This Node.js project implements a simple authentication system with OTP (One-Tim
 1. Clone the repository:
 
    bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/KRISHNAKUMARPS2002/BACKEND_OTP.git
    
 
 2. Navigate to the project directory:

@@ -30,17 +30,17 @@ This Node.js project implements a simple authentication system with OTP (One-Tim
    npm install
    
 
-4. Set up environment variables:
+# Set up environment variables:
 
    - Create a `.env` file in the root directory.
    - Add the following environment variables to the `.env` file:
 
      
-     # TWILIO_ACCOUNT_SID=your_twilio_account_sid
-     # TWILIO_AUTH_TOKEN=your_twilio_auth_token
-     # TWILIO_PHONE_NUMBER=your_twilio_phone_number
-     # JWT_SECRET=your_jwt_secret
-     # DATABASE_URL=postgresql://your_db_user:your_db_password@localhost:5432/backend_otp
+     - TWILIO_ACCOUNT_SID=your_twilio_account_sid
+     - TWILIO_AUTH_TOKEN=your_twilio_auth_token
+     - TWILIO_PHONE_NUMBER=your_twilio_phone_number
+     - JWT_SECRET=your_jwt_secret
+     - DATABASE_URL=postgresql://your_db_user:your_db_password@localhost:5432/backend_otp
      
 
      Replace placeholders (`your_twilio_account_sid`, `your_twilio_auth_token`, etc.) with your actual Twilio credentials, JWT secret, and PostgreSQL database credentials.
